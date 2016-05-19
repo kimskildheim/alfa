@@ -1,4 +1,5 @@
-//user guide available at https://docs.gradle.org/2.10/userguide/tutorial_java_projects.html
+group 'no.kds'
+version '1.0-SNAPSHOT'
 
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
@@ -21,7 +22,6 @@ buildscript {
     }
 }
 
-// In this section you declare the dependencies for your production and test code
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile 'org.slf4j:slf4j-api:1.7.13'
